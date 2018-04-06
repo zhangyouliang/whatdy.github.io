@@ -29,7 +29,7 @@ domain:    whatdy.com
 permalink:     /articles/:year/:month/:title.html
 paginate_path: 'page:num'
 paginate:   10
-source_code: https://gitee.com/whatdy/whatdy.github.io
+source_code: https://github.com/zhangyouliang/whatdy.github.io
 
 customize:
   profile:
