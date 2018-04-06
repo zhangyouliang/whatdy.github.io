@@ -1,0 +1,10 @@
+{
+  "lerna": "2.9.0",
+  "packages": [
+    "lib/octicons_node",
+    "lib/octicons_gem",
+    "lib/octicons_helper",
+    "lib/jekyll-octicons"
+  ],
+  "version": "independent"
+}

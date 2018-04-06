@@ -1,0 +1,140 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 张有亮博客
+name: YouliangZhang
+email: zhang1577121881@gmail.com
+description: 张有亮(YouliangZhang)，PHP工程师，从事web相关的开发工作。开源爱好者，GitHub:https://github.com/zhangyouliang。
+keywords: Laravel,PHP
+skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, Stackoverflow, Sublime Text,Python,Java,Docker]
+
+timezone:    PRC
+encoding: "utf-8"
+
+url: https://www.whatdy.com
+baseurl:  "/"
+domain:    whatdy.com
+permalink:     /articles/:year/:month/:title.html
+paginate_path: 'page:num'
+paginate:   10
+source_code: https://gitee.com/whatdy/whatdy.github.io
+
+customize:
+  profile:
+    author: 张有亮
+    author_title: developer
+    location: Shanghai, China
+  social_links:
+      github: http://github.com/zhangyouliang
+      twitter: /
+      facebook: /
+      dribbble: /
+      rss: /feed.xml
+
+# Build settings
+lsi:         false
+excerpt_separator: "\n\n"
+exclude:
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .idea/
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+markdown: kramdown
+highlighter: rouge
+
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  line_numbers: true
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+# Comment
+comment:
+    disqus: http-www-whatdy-com # enter disqus shortname here
+
+
+google:
+    google_analytics: UA-116094256-1 # enter the tracking ID for your Google Analytics
+    google_site_verification: DXpu9SRLnjngaDaCp__H6gsevHDdRPDpL8VFVSy0wUs # enter Google site verification code
+
+baidu:
+    baidu_analytics: 1ad99998726693e98d7f2e917d506e0b # enter Baidu Analytics hash key
+
+# navigation
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /open-source
+    label: Open-Source
+
+  -
+    href: https://github.com/zhangyouliang
+    label: GitHub
+    target: _blank
+#  -
+#    href: http://weibo.com/44294631
+#    label: Weibo
+#    target: _blank
+
+  -
+    href: /bookmark
+    label: Bookmark
+
+  -
+    href: /about
+    label: About
+
+public_repositories: []
+popular_repos: ['pinyin', 'wechat', 'writor', 'laravel-wechat', 'laravel-lang', 'laravel-pinyin', 'latest-laravel', 'latest-lumen']
+#contribute_repos: ['overtrue/wechat', 'EasyWeChat/site', 'laravel/framework', 'caouecs/Laravel-lang']
+contribute_repos: []
+
+#theme: minima
+#plugins:
+#  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
