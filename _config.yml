@@ -79,6 +79,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-feed
+
+
+#tag_page_layout: tag_page
+#tag_page_dir: tag_page
+#
+#tag_feed_layout: tag_feed
+#tag_feed_dir: tag_feed
+#
+#tag_page_data:
+#  sitemap: false
+#tag_permalink_style: pretty
+
 # Comment
 comment:
     disqus: http-www-whatdy-com # enter disqus shortname here
@@ -121,7 +133,7 @@ navs:
 public_repositories: []
 popular_repos: ['pinyin', 'wechat', 'writor', 'laravel-wechat', 'laravel-lang', 'laravel-pinyin', 'latest-laravel', 'latest-lumen']
 #contribute_repos: ['overtrue/wechat', 'EasyWeChat/site', 'laravel/framework', 'caouecs/Laravel-lang']
-contribute_repos: []
+contribute_repos: ['zhangyouliang/dockerfile', 'overtrue/laravel-wechat']
 
 #theme: minima
 #plugins:

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Hello world!
+categories:
+  - jekyll
 ---
 
 Hello world!
