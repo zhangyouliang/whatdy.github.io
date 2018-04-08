@@ -110,7 +110,7 @@ navs:
     label: Home
 
   -
-    href: /open-source
+    href: /open-source.html
     label: Open-Source
 
   -
@@ -123,11 +123,11 @@ navs:
 #    target: _blank
 
   -
-    href: /bookmark
+    href: /bookmark.html
     label: Bookmark
 
   -
-    href: /about
+    href: /about.html
     label: About
 
 public_repositories: []
