@@ -1,7 +1,7 @@
 ---
 layout: post
-title: git 常用命令
-excerpt: git 常用命令笔记
+title: Git 常用命令
+excerpt: 收集了自己平常使用的一些git命令,方便后期快速查看
 tags:
   - git
 ---

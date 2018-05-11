@@ -1,6 +1,6 @@
 ---
 layout: post
-title: linux 实用命令
+title: LINUX 实用命令
 excerpt: Linux 常用命令笔记,不定期更新
 tags:
   - linux

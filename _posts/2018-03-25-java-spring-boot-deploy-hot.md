@@ -1,6 +1,6 @@
 ---
 layout: post
-title: spring-boot 热部署
+title: SpringBoot 热部署
 excerpt: 解决频繁的重启spring boot 服务器问题
 ags:
   - java

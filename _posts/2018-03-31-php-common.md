@@ -1,7 +1,7 @@
 ---
 layout: post
-title: php 相关注意
-excerpt: 记录 PHP 相关注意事项
+title: PHP 相关笔记 
+excerpt: 记录平时使用 PHP 遇到的一些问题
 tags:
   - php
 ---

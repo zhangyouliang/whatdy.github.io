@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 阿里云支持 ipv6
-excerpt: 让阿里云服务器支持 ipv6
+excerpt: 通过 tunnelbroker 使阿里云服务器支持 ipv6
 tags:
   - linux 
 ---
