@@ -226,6 +226,8 @@ netstat -l
 netstat -lt
 # 只列出udp监听端口 
 netstat -lu
+# n 拒绝显示别名,全部用数字代替(便于查看端口占用)
+netstat -tunlp 
 # 只列出unix域套接字监听端口 
 netstat -lx
 # 查看路由表信息 netstat -r
