@@ -6,7 +6,7 @@ tags:
  - Linux
  - Nginx 
 ---
-
+转载地址: [github](https://github.com/qiwsir/ITArticles/blob/master/Nginx/%E9%85%8D%E7%BD%AE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%84%E6%96%B9%E6%B3%95.md)
 # Nginx配置性能优化的方法
 
 在本文中，我们将分享Nginx配置性能优化的方法，需要注意一点，这不是一个全面的微调指南。这是一个简单的预览——那些可以通过微调来提高性能设置的概述。

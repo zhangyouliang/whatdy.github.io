@@ -26,9 +26,28 @@ git ls-remote --get-url 查看远程 url
 
 
 ### # cherry-pick 
-````
-git cherry-pick  <commit id> 提交单个commit 到当前分支
-````
+    git cherry-pick  <commit id> 提交单个commit 到当前分支
+    - dev           开发分支
+    - master        主分支
+    - master_feature 主分支功能开发
+    
+     
+     由于开始一直在 dev 分支开发,所以需要将刚刚提交的两次commit 合并到 master 分支,但是这个时候又不希望之前的内容一块合并了.
+     这个时候我们就可以使用 `cherry-pick` 命令,分别提交这两次 commit master 分支.
+    
+     git checkout master
+     git checkout -b master_feature
+     ## commit 补充到 master_feature分支
+     git cherry-pick 32b9e1c
+     git cherry-pick 3459e1c
+    
+     # 这个时候我们以后可以直接在 master_feature 分支开发,最后在合并
+     # 或者使用下面的操作,不创建新分支,直接提交到主分支
+    
+     git checkout master
+     git cherry-pick 32b9e1c
+     git cherry-pick 3459e1c
+
 
 ### # git fetch , git rebase,git pull
 ````

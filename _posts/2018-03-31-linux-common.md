@@ -29,33 +29,18 @@ ls -l | grep '^d'
 
 ### # 列出当前目录下的所有文件（包括隐藏文件）的绝对路径， 对目录不做递归
 
-```bash
-ls | sed "s:^:`pwd`/:"
-find $PWD -maxdepth 1 | xargs ls -ld
-```
-
-### # nl
-显示文件的行数
-
-### # head
-显示前几行
-
-### # sort
-按照顺序排序
-
-### # watch 
-
-每隔一秒高亮显示网络链接数的变化情况
-
-watch -n 1 -d netstat -ant
-
-每隔一秒高亮显示http链接数的变化情况
-
-watch -n 1 -d 'pstree|grep http'
-
+    ls | sed "s:^:`pwd`/:"
+    find $PWD -maxdepth 1 | xargs ls -ld
+    nl 显示文件的行数
+    head 显示前几行
+    sort 按照顺序排序
+    watch 每隔一秒高亮显示网络链接数的变化情况
+    watch -n 1 -d netstat -ant
+    每隔一秒高亮显示http链接数的变化情况
+    watch -n 1 -d 'pstree|grep http'
+    
 ### cat
-查看文件并且显示行数
-cat -n /etc/inetd.conf
+查看文件并且显示行数 cat -n /etc/inetd.conf
 
 ### # tee
 
