@@ -146,4 +146,29 @@ if指令中，可以使用全局变量，这些变量有：
 `$args` 这个变量等于GET请求中的参数。例如，foo=123&bar=blahblah;这个变量只可以被修改
 
 
+### 例子
 
+> 代理 a.com ,目标域名 b.com
+
+nginx.conf
+    
+    upstream mysvr {
+        server b.com weight=5;
+      }
+
+a.com.conf
+    
+    server {
+        listen 80;
+        server_name hiweixiu.wxjdkyx.com;
+        access_log /data/wwwlogs/access_nginx.log combined;
+        index index.html index.htm index.php;
+        location / {
+         proxy_pass  http://mysvr;
+         # 目标网站可能根据 Host 属性进行跳转,所以这里有时候需要设置为目标应
+         # proxy_set_header Host "b.com";
+         proxy_set_header Host $host;
+         proxy_set_header X-Real-Ip $remote_addr;
+         proxy_set_header X-Forwarded-For $remote_addr;
+        }    
+      }
