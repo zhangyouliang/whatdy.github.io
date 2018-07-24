@@ -133,7 +133,7 @@ navs:
 public_repositories: []
 popular_repos: ['pinyin', 'wechat', 'writor', 'laravel-wechat', 'laravel-lang', 'laravel-pinyin', 'latest-laravel', 'latest-lumen']
 #contribute_repos: ['overtrue/wechat', 'EasyWeChat/site', 'laravel/framework', 'caouecs/Laravel-lang']
-contribute_repos: ['zhangyouliang/dockerfile', 'overtrue/laravel-wechat']
+contribute_repos: ['zhangyouliang/dockerfile', 'iview/iview','iview/iview-admin','vinta/awesome-python','justjavac/free-programming-books-zh_CN']
 
 #theme: minima
 #plugins:
