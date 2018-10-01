@@ -1,6 +1,6 @@
 ---
 layout: post
-title: maven 基本用法 
+title: maven 基本用法 - 书签
 excerpt: 记录 Maven的基本用法
 tags:
  - Java

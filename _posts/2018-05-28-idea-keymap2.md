@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IDEA 快捷键2
+title: IDEA 快捷键2 - 书签
 excerpt: Mac 之上的 idea 快捷键
 tags:
  - Java

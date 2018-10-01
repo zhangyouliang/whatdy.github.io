@@ -117,6 +117,9 @@ navs:
     href: https://github.com/zhangyouliang
     label: GitHub
     target: _blank
+  - href: https://gitee.com/whatdy
+    label: GitEE
+    target: _blank
 #  -
 #    href: http://weibo.com/44294631
 #    label: Weibo
@@ -125,15 +128,18 @@ navs:
   -
     href: /bookmark.html
     label: Bookmark
+  - href: http://doc.docker.whatdy.com/
+    target: _blank
+    label: Docker Doc
 
-  -
-    href: /about.html
-    label: About
+#  -
+#    href: /about.html
+#    label: About
 
 public_repositories: []
 popular_repos: ['pinyin', 'wechat', 'writor', 'laravel-wechat', 'laravel-lang', 'laravel-pinyin', 'latest-laravel', 'latest-lumen']
 #contribute_repos: ['overtrue/wechat', 'EasyWeChat/site', 'laravel/framework', 'caouecs/Laravel-lang']
-contribute_repos: ['zhangyouliang/dockerfile', 'iview/iview','iview/iview-admin','vinta/awesome-python','justjavac/free-programming-books-zh_CN']
+contribute_repos: ['zhangyouliang/dockerfile','vinta/awesome-python','justjavac/free-programming-books-zh_CN']
 
 #theme: minima
 #plugins:
