@@ -23,7 +23,7 @@ skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, S
 timezone:    PRC
 encoding: "utf-8"
 
-url: https://www.whatdy.com
+url: http://www.whatdy.com
 baseurl:  "/"
 domain:    whatdy.com
 permalink:     /articles/:year/:month/:title.html
